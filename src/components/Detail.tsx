@@ -104,7 +104,7 @@ const Detail = ({ data, close }: IDetailProps) => {
               ))}
             </div>
           </div>
-          <div className="px-6 max-h-[calc(100dvh-490px)] md:max-h-[calc(100dvh-550px)] overflow-y-auto">
+          <div className="px-6 max-h-[calc(100%-99px)] md:max-h-[calc(100%-90px)] overflow-y-auto">
             {activeTab === "about" && (
               <About data={data} detail={speciesData} />
             )}
